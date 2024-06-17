@@ -1,0 +1,46 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(159, 159, 219);
+    margin: 0;padding: 0;
+}
+.product_container{
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(162,196, 226, 0.354);
+    background-image: url(/Image/floral\ 5.jpg);
+}
+header{
+    text-align: center;
+    margin-bottom: 70px;
+    position: static;
+}
+header p{
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+.product{
+    padding: 30px;
+    background-color: beige;
+    margin-top: 50px;
+}
+.product_description{
+    padding: 30px;
+    
+}
+li img{
+    width: 200px;
+    height: 300px;
+    border-radius: 5px;
+}
+li a{
+    color: aqua;
+}
+li a:hover{
+    color: cadetblue;
+}
+li a:visited{
+    color: brown;
+}

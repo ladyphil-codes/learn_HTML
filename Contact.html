@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+
+<body>
+    <div class="contact_container">
+
+        <header>
+            <h2>Contact Form</h2>
+            <p>Fill in your Details correctly</p>
+        </header>
+
+        <!-- This is the Form -->
+
+         <form>
+        <label for="fname">First name:</label> <br/>
+        <input type="text" id="fname" name="fname" placeholder="Nelson" required>
+        <br/> <br/>
+
+        <label for="lname">Last name:</label> <br/>
+        <input type="text" id="lname" name="lname" placeholder="Cyril" required>
+        <br/><br/>
+
+        <label for="email">E-mail:</label> <br/>
+        <input type="email" id="email" placeholder="username@gmail.com" required>
+        <br/><br/>
+
+        <label for="Password">Password:</label> <br/>
+        <input type="password" id="password" placeholder="*****" required>
+        <br/><br/>
+
+        <label for="birthday"></label> <br/>
+        <input type="date" id="birthday" name="birthday">
+        <br/><br/>
+
+        <label for="favouriteColour"> favourite Colour</label> <br/>
+        <input type="color" id="favouriteColour" name="favourite Colour">
+        <br/><br/>
+
+        <label for="Age">Age</label> <br/>
+        <input type="number" id="Age" name="Age" min="16" max="100">
+        <br/><br/>
+
+        <label for="Phone">Phone Number</label> <br/>
+        <input type="tel" id="Phone" name="Phone" placeholder="+234********" required>
+        <br/><br/>
+
+        <label for="website">website</label> <br/>
+        <input type="url" id="website" name="website" placeholder="www.">
+        <br/><br/>
+
+        <label for="photo">profile picture</label> <br/>
+        <input type="file" id="photo" name="photo" required>
+        <br/> <br/>
+
+        <label for="appointment">Appointment:</label> <br/>
+        <input type="datetime-local" id="appointment" name="appointment" required>
+        <br/> <br/>
+
+        <!-- Submit button -->
+         <input type="submit" value="submit"
+        </form>
+    </div>
+</body>
+</html>
